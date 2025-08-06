@@ -1,6 +1,6 @@
 'use strict';
 
-const { fillTank } = require('./fillTank');
+const { fillTank } = require('../src/fillTank');
 
 describe('fillTank', () => {
   it('should fill to full tank if no amount is provided', () => {
